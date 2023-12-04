@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lostkids Menu</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stlesheet" href="./css/style.css">
+  <link rel="icon" type="image/png" href="./image/logo.png" sizes="64x64">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+</head>
+
+<body>
+
+  <header>
+    <a href="./seminar.html" class="logo"><img src="./image/logo.png" alt="" class="corgi">
+      <p class="lk" style="top:-35px;">Lostkids</p>
+    </a>
+    <nav class="navbar">
+      <a class="active" href="./Logged.html">home</a>
+      <a href="#dishes">drinks</a>
+      <a href="./seminar.html">about</a>
+
+      <div class="dropdown">
+        <button class="dropbtn"> <a href="./menu.html">menu</a></button>
+        <div class="dropdown-content">
+          <a href="#milktea">Milktea</a>
+          <a href="#tea">Tea</a>
+          <a href="#special">Special</a>
+          <a href="#topping">Topping</a>
+
+        </div>
+      </div>
+
+
+      <a href="#review">review</a>
+      <a href="#order">order</a>
+    </nav>
+    <div class="icons">
+      <i class="fas fa-bars" id="menu-bars"></i>
+      <i class="fas fa-search" id="search-icon"></i>
+      <!-- <a href="./Login.html" class="fas fa-user"></a>    -->
+     
+     <a href="#" class="fas fa-shopping-cart" onclick="thongbaologin()"></a>
+     <a href="./loggin2.html" class="fas fa-user"></a>
+    </div>
+
+  </header>
+
+  <!-- header section ends-->
+
+  <!-- search form  -->
+  <div class="menu-container">
+    
+    <div class="row m-3">
+      <div class="col-2 left">
+        <div class="container_column">
+      
+          
+          <nav class="nav flex-column">
+            <a href="#" class="nav-item">
+              <img src="./image/d.png" alt="" width="30" height="60" class="d-inline-block ">
+              TẤT CẢ</a>
+            <a href="#tea" class="nav-item">
+              <img src="./image/b.png" alt="" width="30" height="60" class="d-inline-block ">
+              TEA</a>
+            <a href="#milktea" target="_self" class="nav-item">
+              <img src="./image/a.png" alt="" width="30" height="60" class="d-inline-block ">
+              MILKTEA</a>
+            <a href="#special" class="nav-item">
+              <img src="./image/c.png" alt="" width="30" height="60" class="d-inline-block ">
+              SPECIAL</a>
+            <a href="#topping" class="nav-item">
+              <img src="./image/topping.png" alt="" width="45" height="60" class="d-inline-block ">
+              TOPPING</a>
+          </nav>
+        </div>
+
+      </div>
+      <div class="col-10">
+      <div class="banner">
+      <div class="baner-image">
+        <img src="./image/MENU.png" alt="">
+      </div>
+    </div>
+        <h2 class="category-heading" id="tea">TEA</h2>
+        <div class="container">
+          <img src="./image/15.png" alt="Avatar" class="image">
+          <div class="overlay" onclick="myFunction4()">
+            <div class="text">
+              <img src="./image/add.png" class="rounded-circle" alt="">
+            </div>
+          </div>
+          <h3 style="text-align: center;">Trà Đào</h3>
+        </div>
+        <div class="container">
+          <img src="./image/7.png" alt="Avatar" class="image">
+          <div class="overlay" onclick="myFunction5()">
+            <div class="text">
+              <img src="./image/add.png" class="rounded-circle" alt="">
+            </div>
+          </div>
+          <h3 style="text-align: center;">Trà Dứa Nhài</h3>
+        </div>
+        <div class="container">
+          <img src="./image/17.png" alt="Avatar" class="image">
+          <div class="overlay" onclick="myFunction14()">
+            <div class="text">
+              <img src="./image/add.png" class="rounded-circle" alt="">
+            </div>
+          </div>
+          <h3 style="text-align: center;">Trà Lê Vàng</h3>
+        </div>
+
+        <div class="col-10 pro" id="4">
+          <section class="product">
+            <div class="product_photo">
+              <div class="photo-container">
+                <div class="photo-main">
+                  <img src="./image/15.png">
+                </div>
+              </div>
+            </div>
+            <div class="product_info">
+              <div class="title">
+                <h1><b>Trà Đào</b></h1>
+              </div>
+              <div class="price">
+                <span>30.000<sup>đ</sup></span>
+              </div>
+              <div class="choose">
+                <img src="./image/cold.png" height="60" width="30"></li>
+              </div>
+              <div class="description">
+                <h3>Chi Tiết</h3>
+                <p>Lựa chọn giải nhiệt hàng đầu, trà đài thơm ngát, đào giòn
+                <p>sừng sực, combo như vậy đã đủ chiều lòng bạn.</p>
+              </div>
+              <button class="buy-btn"><a href="./detail/detail_tradao.html">ORDER</a></button>
+            </div>
+          </section>
+        </div>
+        <div class="col-10 pro" id="5">
+          <section class="product">
+            <div class="product_photo">
+              <div class="photo-container">
+                <div class="photo-main">
+                  <img src="./image/7.png">
+                </div>
+              </div>
+            </div>
+            <div class="product_info">
+              <div class="title">
+                <h1><b>Trà Dứa Nhài</b></h1>
+              </div>
+              <div class="price">
+                <span>35.000<sup>đ</sup></span>
+              </div>
+              <div class="choose">
+                <img src="./image/cold.png" height="60" width="30"></li>
+              </div>
+              <div class="description">
+                <h3>Chi Tiết</h3>
+                <p>Nước uống giải nhiệt, thanh mát ngày hè, phù hợp
+                <p>mọi lứa tuổi.</p>
+              </div>
+              <button class="buy-btn"><a href="./detail/detail_traduanhai.html">ORDER</a></button>
+            </div>
+          </section>
+        </div>
+        <div class="col-10 pro" id="14">
+          <section class="product">
+            <div class="product_photo">
+              <div class="photo-container">
+                <div class="photo-main">
+                  <img src="./image/17.png">
+                </div>
+              </div>
+            </div>
+            <div class="product_info">
+              <div class="title">
+                <h1><b>Trà Lê Vàng</b></h1>
+              </div>
+              <div class="price">
+                <span>35.000<sup>đ</sup></span>
+              </div>
+              <div class="choose">
+                <img src="./image/cold.png" height="60" width="30"></li>
+              </div>
+              <div class="description">
+                <h3>Chi Tiết</h3>
+                <p>Lê ngọt mát, trà hảo hạn, còn ngại gì không thử </p>
+              </div>
+              <button class="buy-btn"><a href="./detail/detail_tralevang.html">ORDER</a></button>
+            </div>
+          </section>
+        </div>
+
+        <h2 class="category-heading">MILKTEA</h2>
+        <div class="container">
+          <img src="./image/socolats.png" alt="Avatar" class="image">
+          <div class="overlay" onclick="myFunction()">
+            <div class="text">
+              <img src="./image/add.png" class="rounded-circle" alt="" width="50%" height="50%">
+            </div>
+          </div>
+          <h3 style="text-align: center;">Trà sữa Socola</h3>
+        </div>
+
+        <div class="container">
+          <img src="./image/3.png" alt="Avatar" class="image">
+          <div class="overlay" onclick="myFunction3()">
+            <div class="text">
+              <img src="./image/add.png" class="rounded-circle" alt="">
+            </div>
+          </div>
+          <h3 style="text-align: center;">Trà sữa Truyền thống</h3>
+        </div>
+        <div class="container" id="milktea">
+          <img src="./image/4.png" alt="Avatar" class="image">
+          <div class="overlay" onclick="myFunction11()">
+            <div class="text">
+              <img src="./image/add.png" class="rounded-circle" alt="">
+            </div>
+          </div>
+          <h3 style="text-align: center;">Trà sữa Hạt Đẹp Đường Đen</h3>
+        </div>
+        <div class="col-10 pro" id="1">
+          <section class="product">
+            <div class="product_photo">
+              <div class="photo-container">
+                <div class="photo-main">
+                  <img src="./image/socolats.png">
+                </div>
+              </div>
+            </div>
+            <div class="product_info">
+              <div class="title">
+                <h1><b>Trà sữa Socola</b></h1>
+              </div>
+              <div class="price">
+                <span>25.000<sup>đ</sup></span>
+              </div>
+              <div class="choose">
+                <img src="./image/cold.png" height="60" width="30"></li>
+              </div>
+              <div class="description">
+                <h3>Chi Tiết</h3>
+                <p>Vị đắng của chocolate là bạn đồng hành hoàn hảo của
+                <p>vị béo từ sữa, bùng vị tăng sự thỏa mãn.</p>
+              </div>
+              <button class="buy-btn"><a href="./detail/trasuasocola.html">ORDER</a></button>
+            </div>
+          </section>
+        </div>
+        <div class="col-10 pro" id="3">
+          <section class="product">
+            <div class="product_photo">
+              <div class="photo-container">
+                <div class="photo-main">
+                  <img src="./image/3.png">
+                </div>
+              </div>
+            </div>
+            <div class="product_info">
+              <div class="title">
+                <h1><b>Trà sữa Truyền Thống</b></h1>
+              </div>
+              <div class="price">
+                <span>25.000<sup>đ</sup></span>
+              </div>
+              <div class="choose">
+                <img src="./image/cold.png" height="60" width="30"></li>
+              </div>
+              <div class="description">
+                <h3>Chi Tiết</h3>
+                <p>Vị trà đậm đặc, hảo hạn hòa quyện cùng sữa tạo
+                <p> nên sự lôi cuốn, cổ điển</p>
+              </div>
+              <button class="buy-btn"><a href="./detail/detail.trasuatruyenthong.html">ORDER</a></button>
+            </div>
+          </section>
+        </div>
+        <div class="col-10 pro" id="11">
+          <section class="product">
+            <div class="product_photo">
+              <div class="photo-container">
+                <div class="photo-main">
+                  <img src="./image/4.png">
+                </div>
+              </div>
+            </div>
+            <div class="product_info">
+              <div class="title">
+                <h1><b>Trà sữa Hạt Đẹp Đường Đen</b></h1>
+              </div>
+              <div class="price">
+                <span>35.000<sup>đ</sup></span>
+              </div>
+              <div class="choose">
+                <img src="./image/cold.png" height="60" width="30"></li>
+              </div>
+              <div class="description">
+                <h3>Chi Tiết</h3>
+                <p>Khác với trà sữa truyền thống, nó còn mang hương thơm của
+                <p>đường đen, hạt đẹp giòn sừng sực kích thích vị giác.</p>
+              </div>
+              <button class="buy-btn"><a href="./detail/hatdepduongden.html">ORDER</a></button>
+            </div>
+          </section>
+        </div>
+        <div class="container">
+          <img src="./image/11.png" alt="Avatar" class="image">
+          <div class="overlay" onclick="myFunction7()">
+            <div class="text">
+              <img src="./image/add.png" class="rounded-circle" alt="">
+            </div>
+          </div>
+          <h3 style="text-align: center;">Trà sữa Khoai Môn</h3>
+        </div>
+        <div class="container" id="milktea">
+          <img src="./image/tsoolong.png" alt="Avatar" class="image">
+          <div class="overlay" onclick="myFunction8()">
+            <div class="text">
+              <img src="./image/add.png" class="rounded-circle" alt="">
+            </div>
+          </div>
+          <h3 style="text-align: center;">Trà sữa Oolong</h3>
+        </div>
+        <div class="container">
+          <img src="./image/12.png" alt="Avatar" class="image">
+          <div class="overlay" onclick="myFunction12()">
+            <div class="text">
+              <img src="./image/add.png" class="rounded-circle" alt="">
+            </div>
+          </div>
+          <h3 style="text-align: center;">Trà sữa Kem Cheese</h3>
+        </div>
+
+        <div class="col-10 pro" id="7">
+          <section class="product">
+            <div class="product_photo">
+              <div class="photo-container">
+                <div class="photo-main">
+                  <img src="./image/11.png">
+                </div>
+              </div>
+            </div>
+            <div class="product_info">
+              <div class="title">
+                <h1><b>Trà sữa Khoai Môn</b></h1>
+              </div>
+              <div class="price">
+                <span>25.000<sup>đ</sup></span>
+              </div>
+              <div class="choose">
+                <img src="./image/cold.png" height="60" width="30"></li>
+              </div>
+              <div class="description">
+                <h3>Chi Tiết</h3>
+                <p>Thức uống không phụ lòng các bạn mê khoai môn,
+                <p>công thức không quá béo .</p>
+              </div>
+              <button class="buy-btn"><a href="./detail/trasuakhoaimon.html">ORDER</a></button>
+        </div>
+          </section>
+        </div>
+        <div class="col-10 pro" id="8">
+          <section class="product">
+            <div class="product_photo">
+              <div class="photo-container">
+                <div class="photo-main">
+                  <img src="./image/tsoolong.png">
+                </div>
+              </div>
+            </div>
+            <div class="product_info">
+              <div class="title">
+                <h1><b>Trà sữa Oolong</b></h1>
+              </div>
+              <div class="price">
+                <span>25.000<sup>đ</sup></span>
+              </div>
+              <div class="choose">
+                <img src="./image/cold.png" height="60" width="30"></li>
+              </div>
+              <div class="description">
+                <h3>Chi Tiết</h3>
+                <p>Vị trà oolong đậm đà hảo hạn,ngọt nhẹ nhàng nhưng lôi cuốn.</p>
+              </div>
+              <button class="buy-btn"><a href="./detail/trasuaoolong.html">ORDER</a></button>
+            </div>
+          </section>
+        </div>
+        <div class="col-10 pro" id="12">
+          <section class="product">
+            <div class="product_photo">
+              <div class="photo-container">
+                <div class="photo-main">
+                  <img src="./image/12.png">
+                </div>
+              </div>
+            </div>
+            <div class="product_info">
+              <div class="title">
+                <h1><b>Trà sữa Kem Cheese</b></h1>
+              </div>
+              <div class="price">
+                <span>35.000<sup>đ</sup></span>
+              </div>
+              <div class="choose">
+                <img src="./image/cold.png" height="60" width="30"></li>
+              </div>
+              <div class="description">
+                <h3>Chi Tiết</h3>
+                <p>Trà sữa truyền thống, lớp kem cheese béo ngậy kích thích
+                <p>mọi giác quan.</p>
+              </div>
+              <button class="buy-btn"><a href="./detail/trasuakemcheese.html">ORDER</a></button>
+            </div>
+          </section>
+        </div>
+
+
+        <h2 class="category-heading" id="special">SPECIAL</h2>
+        <div class="container">
+          <img src="./image/10.png" alt="Avatar" class="image">
+          <div class="overlay" onclick="myFunction9()">
+            <div class="text">
+              <img src="./image/add.png" class="rounded-circle" alt="">
+            </div>
+          </div>
+          <h3 style="text-align: center;">Bọt Sữa Trân Châu Đường Đen</h3>
+        </div>
+        <div class="container">
+          <img src="./image/9.png" alt="Avatar" class="image">
+          <div class="overlay" onclick="myFunction6()">
+            <div class="text">
+              <img src="./image/add.png" class="rounded-circle" alt="">
+            </div>
+          </div>
+          <h3 style="text-align: center;">Trà Đen Chanh Cà Phê </h3>
+        </div>
+        <div class="container">
+          <img src="./image/8.png" alt="Avatar" class="image">
+          <div class="overlay" onclick="myFunction10()">
+            <div class="text">
+              <img src="./image/add.png" class="rounded-circle" alt="">
+            </div>
+          </div>
+          <h3 style="text-align: center;">Matcheese</h3>
+        </div>
+        <div class="col-10 pro" id="9">
+          <section class="product">
+            <div class="product_photo">
+              <div class="photo-container">
+                <div class="photo-main">
+                  <img src="./image/10.png">
+                </div>
+              </div>
+            </div>
+            <div class="product_info">
+              <div class="title">
+                <h1><b>Bọt Sữa Trân Châu Đường Đen</b></h1>
+              </div>
+              <div class="price">
+                <span>30.000<sup>đ</sup></span>
+              </div>
+              <div class="choose">
+                <img src="./image/cold.png" height="60" width="30"></li>
+              </div>
+              <div class="description">
+                <h3>Chi Tiết</h3>
+                <p>Sự kết hợp hoàn hảo giữa các hương vị, tạo nên sự ngọt ngào
+                <p>không thể cưởng lại</p>
+              </div>
+              <button class="buy-btn"><a href="./detail/botsuatranchau.html">ORDER</a></button>
+            </div>
+          </section>
+        </div>
+        <div class="col-10 pro" id="5">
+          <section class="product">
+            <div class="product_photo">
+              <div class="photo-container">
+                <div class="photo-main">
+                  <img src="./image/7.png">
+                </div>
+              </div>
+            </div>
+            <div class="product_info">
+              <div class="title">
+                <h1><b>Trà Dứa Nhài</b></h1>
+              </div>
+              <div class="price">
+                <span>35.000<sup>đ</sup></span>
+              </div>
+              <div class="choose">
+                <img src="./image/cold.png" height="60" width="30"></li>
+              </div>
+              <div class="description">
+                <h3>Chi Tiết</h3>
+                <p>Nước uống giải nhiệt, thanh mát ngày hè, phù hợp
+                <p>mọi lứa tuổi.</p>
+              </div>
+              <button class="buy-btn"><a href="./detail/detail_traduanhai.html">ORDER</a></button>
+            </div>
+          </section>
+        </div>
+        <div class="col-10 pro" id="6">
+          <section class="product">
+            <div class="product_photo">
+              <div class="photo-container">
+                <div class="photo-main">
+                  <img src="./image/9.png">
+                </div>
+              </div>
+            </div>
+            <div class="product_info">
+              <div class="title">
+                <h1><b>Trà Đen Chanh Cà Phê</b></h1>
+              </div>
+              <div class="price">
+                <span>35.000<sup>đ</sup></span>
+              </div>
+              <div class="choose">
+                <img src="./image/cold.png" height="60" width="30"></li>
+              </div>
+              <div class="description">
+                <h3>Chi Tiết</h3>
+                <p>Thức uống tỉnh táo, bùng vị giác, vị chua của chanh, cách
+                <p>pha chế độc đáo, kết hợp hoàn hảo.</p>
+              </div>
+              <button class="buy-btn"><a href="./detail/detail_chanhcaphe.html">ORDER</a></button>
+            </div>
+          </section>
+        </div>
+        <div class="col-10 pro" id="10">
+          <section class="product">
+            <div class="product_photo">
+              <div class="photo-container">
+                <div class="photo-main">
+                  <img src="./image/8.png">
+                </div>
+              </div>
+            </div>
+            <div class="product_info">
+              <div class="title">
+                <h1><b>Matcheese</b></h1>
+              </div>
+              <div class="price">
+                <span>45.000<sup>đ</sup></span>
+              </div>
+              <div class="choose">
+                <img src="./image/cold.png" height="60" width="30"></li>
+              </div>
+              <div class="description">
+                <h3>Chi Tiết</h3>
+                <p>Lớp cheese béo ngậy, trà xanh nhần nhẫn, sự hoàn hảo đầy tinh tế,
+                <p>một thức uống không thể bỏ qua.</p>
+              </div>
+              <button class="buy-btn"><a href="./detail/matcheese.html">ORDER</a></button>
+            </div>
+          </section>
+        </div>
+
+        <div class="container">
+          <img src="./image/2.png" alt="Avatar" class="image">
+          <div class="overlay" onclick="myFunction13()">
+            <div class="text">
+              <img src="./image/add.png" class="rounded-circle" alt="">
+            </div>
+          </div>
+          <h3 style="text-align: center;">Trà Dưa Hấu mix Xoài</h3>
+        </div>
+
+        <div class="container">
+          <img src="./image/16.png" alt="Avatar" class="image">
+          <div class="overlay" onclick="myFunction15()">
+            <div class="text">
+              <img src="./image/add.png" class="rounded-circle" alt="" width="50%" height="50%">
+            </div>
+          </div>
+          <h3 style="text-align: center;">Trà Xanh Mật Ong</h3>
+        </div>
+        <div class="container">
+          <img src="./image/1.png" alt="Avatar" class="image">
+          <div class="overlay" onclick="myFunction16()">
+            <div class="text">
+              <img src="./image/add.png" class="rounded-circle" alt="" width="50%" height="50%">
+            </div>
+          </div>
+          <h3 style="text-align: center;">Trà cam mật ong</h3>
+        </div>
+        <div class="col-10 pro" id="13">
+          <section class="product">
+            <div class="product_photo">
+              <div class="photo-container">
+                <div class="photo-main">
+                  <img src="./image/2.png">
+                </div>
+              </div>
+            </div>
+            <div class="product_info">
+              <div class="title">
+                <h1><b>Trà Dưa Hấu mix Xoài</b></h1>
+              </div>
+              <div class="price">
+                <span>35.000<sup>đ</sup></span>
+              </div>
+              <div class="choose">
+                <img src="./image/cold.png" height="60" width="30"></li>
+              </div>
+              <div class="description">
+                <h3>Chi Tiết</h3>
+                <p>Trà thanh mát, ngọt mát từ dưa hấu kết hợp vị
+                <p>đặc trưng của xoài, ly trà thích hợp giải nóng.</p>
+              </div>
+              <button class="buy-btn"><a href="./detail/detail_duahauxoai.html">ORDER</a></button>
+            </div>
+          </section>
+        </div>
+
+        <div class="col-10 pro" id="15">
+          <section class="product">
+            <div class="product_photo">
+              <div class="photo-container">
+                <div class="photo-main">
+                  <img src="./image/16.png">
+                </div>
+              </div>
+            </div>
+            <div class="product_info">
+              <div class="title">
+                <h1><b>Trà Xanh Mật Ong</b></h1>
+              </div>
+              <div class="price">
+                <span>35.000<sup>đ</sup></span>
+              </div>
+              <div class="choose">
+                <img src="./image/cold.png" height="60" width="30"></li>
+              </div>
+              <div class="description">
+                <h3>Chi Tiết</h3>
+                <p>Thanh nhiệt, tốt cho sức khỏe, sự lựa chọn hàng đầu
+                <p>cho mùa hè này.</p>
+              </div>
+              <button class="buy-btn"><a href="./detail/detaill_traxanhmatong.html">ORDER</a></button>
+            </div>
+          </section>
+        </div>
+        <div class="col-10 pro" id="16">
+          <section class="product">
+            <div class="product_photo">
+              <div class="photo-container">
+                <div class="photo-main">
+                  <img src="./image/1.png">
+                </div>
+              </div>
+            </div>
+            <div class="product_info">
+              <div class="title">
+                <h1><b>Trà cam mật ong</b></h1>
+              </div>
+              <div class="price">
+                <span>35.000<sup>đ</sup></span>
+              </div>
+              <div class="choose">
+                <img src="./image/cold.png" height="60" width="30"></li>
+              </div>
+              <div class="description">
+                <h3>Chi Tiết</h3>
+                <p>Mật ong ngọt nhẹ, trà đen hảo hạn, những lát cam thanh mát</p>
+              </div>
+              <button class="buy-btn"><a href="./detail/detail_cammatong.html">ORDER</a></button>
+            </div>
+          </section>
+        </div>
+        <div class="container">
+          <img src="./image/5.png" alt="Avatar" class="image">
+          <div class="overlay" onclick="myFunction2()">
+            <div class="text">
+              <img src="./image/add.png" class="rounded-circle" alt="">
+            </div>
+          </div>
+          <h3 style="text-align: center;">Chocolate Đá Xay </h3>
+        </div>
+        <div class="col-10 pro" id="2">
+          <section class="product">
+            <div class="product_photo">
+              <div class="photo-container">
+                <div class="photo-main">
+                  <img src="./image/5.png">
+                </div>
+              </div>
+            </div>
+            <div class="product_info">
+              <div class="title">
+                <h1><b>Chocolate Đá Xay</b></h1>
+              </div>
+              <div class="price">
+                <span>45.000<sup>đ</sup></span>
+              </div>
+              <div class="choose">
+                <img src="./image/cold.png" height="60" width="30"></li>
+              </div>
+              <div class="description">
+                <h3>Chi Tiết</h3>
+                <p>Tín đồ mê ngọt ngào không thể bỏ qua, thạch dai tăng cảm giác,
+                <p>cam kết các bạn sẽ cảm nhận hương vị trên cả tuyệt vời.</p>
+              </div>
+              <button class="buy-btn"><a href="./detail/chocolatedaxay.html">ORDER</a></button>
+            </div>
+          </section>
+        </div>
+        <h2 class="category-heading" id="topping">TOPPING</h2>
+        <div class="container">
+          <img src="./image/daudo.png" alt="Avatar" class="image">
+          <div class="overlay" onclick="myFunction17()">
+            <div class="text">
+              <img src="./image/add.png" class="rounded-circle" alt="">
+            </div>
+          </div>
+          <h3 style="text-align: center;">Đậu Đỏ</h3>
+        </div>
+        <div class="container" id="topping">
+          <img src="./image/kemsua.png" alt="Avatar" class="image">
+          <div class="overlay" onclick="myFunction18()">
+            <div class="text">
+              <img src="./image/add.png" class="rounded-circle" alt="">
+            </div>
+          </div>
+          <h3 style="text-align: center;">Kem Sữa</h3>
+        </div>
+        <div class="container">
+          <img src="./image/nhadam.png" alt="Avatar" class="image">
+          <div class="overlay" onclick="myFunction19()">
+            <div class="text">
+              <img src="./image/add.png" class="rounded-circle" alt="">
+            </div>
+          </div>
+          <h3 style="text-align: center;">Nha Đam</h3>
+        </div>
+        <div class="col-10 pro" id="17">
+          <section class="product">
+            <div class="product_photo">
+              <div class="photo-container">
+                <div class="photo-main">
+                  <img src="./image/daudo.png">
+                </div>
+              </div>
+            </div>
+            <div class="product_info">
+              <div class="title">
+                <h1><b>Đậu Đỏ</b></h1>
+              </div>
+              <div class="price">
+                <span>10.000<sup>đ</sup></span>
+              </div>
+              <div class="description">
+                <h3>Chi Tiết</h3>
+                <p>Kết hợp hàng đầu: Matcheese, Trà sữa truyền thống, Trà sữa oolong</p>
+              </div>
+              <button class="buy-btn"><a href="./detail/daudo.html">ORDER</a></button>
+            </div>
+          </section>
+        </div>
+        <div class="col-10 pro" id="18">
+          <section class="product">
+            <div class="product_photo">
+              <div class="photo-container">
+                <div class="photo-main">
+                  <img src="./image/kemsua.png">
+                </div>
+              </div>
+            </div>
+            <div class="product_info">
+              <div class="title">
+                <h1><b>Kem Sữa</b></h1>
+              </div>
+              <div class="price">
+                <span>10.000<sup>đ</sup></span>
+              </div>
+              <div class="description">
+                <h3>Chi Tiết</h3>
+                <p>Phù hợp mọi loại thức uống</p>
+              </div>
+              <button class="buy-btn"><a href="./detail/kemsua.html">ORDER</a></button>
+            </div>
+          </section>
+        </div>
+        <div class="col-10 pro" id="19">
+          <section class="product">
+            <div class="product_photo">
+              <div class="photo-container">
+                <div class="photo-main">
+                  <img src="./image/nhadam.png">
+                </div>
+              </div>
+            </div>
+            <div class="product_info">
+              <div class="title">
+                <h1><b>Nha Đam</b></h1>
+              </div>
+              <div class="price">
+                <span>10.000<sup>đ</sup></span>
+              </div>
+              <div class="description">
+                <h3>Chi Tiết</h3>
+                <p>Kết hợp hàng đầu: Các loại trà</p>
+              </div>
+              <button class="buy-btn"><a href="./detail/detail_nhadam.html">ORDER</a></button>
+            </div>
+          </section>
+        </div>
+        <div class="container">
+          <img src="./image/tcden.png" alt="Avatar" class="image">
+          <div class="overlay" onclick="myFunction20()">
+            <div class="text">
+              <img src="./image/add.png" class="rounded-circle" alt="">
+            </div>
+          </div>
+          <h3 style="text-align: center;">Trân Châu Đen</h3>
+        </div>
+        <div class="container">
+          <img src="./image/tctrang.png" alt="Avatar" class="image">
+          <div class="overlay" onclick="myFunction21()">
+            <div class="text">
+              <img src="./image/add.png" class="rounded-circle" alt="">
+            </div>
+          </div>
+          <h3 style="text-align: center;">Trân Châu Trắng</h3>
+        </div>
+        <div class="container">
+          <img src="./image/3loai.png" alt="Avatar" class="image">
+          <div class="overlay" onclick="myFunction22()">
+            <div class="text">
+              <img src="./image/add.png" class="rounded-circle" alt="">
+            </div>
+          </div>
+          <h3 style="text-align: center;">Combo 3 loại</h3>
+        </div>
+        <div class="col-10 pro" id="20">
+          <section class="product">
+            <div class="product_photo">
+              <div class="photo-container">
+                <div class="photo-main">
+                  <img src="./image/tcden.png">
+                </div>
+              </div>
+            </div>
+            <div class="product_info">
+              <div class="title">
+                <h1><b>Trân Châu Đen</b></h1>
+              </div>
+              <div class="price">
+                <span>10.000<sup>đ</sup></span>
+              </div>
+              <div class="description">
+                <h3>Chi Tiết</h3>
+                <p>Phù hợp mọi loại thức uống</p>
+              </div>
+              <button class="buy-btn"><a href="./detail/detail_tcden.html">ORDER</a></button>
+            </div>
+          </section>
+        </div>
+        <div class="col-10 pro" id="21">
+          <section class="product">
+            <div class="product_photo">
+              <div class="photo-container">
+                <div class="photo-main">
+                  <img src="./image/tctrang.png">
+                </div>
+              </div>
+            </div>
+            <div class="product_info">
+              <div class="title">
+                <h1><b>Trân châu trắng</b></h1>
+              </div>
+              <div class="price">
+                <span>10.000<sup>đ</sup></span>
+              </div>
+              <div class="description">
+                <h3>Chi Tiết</h3>
+                <p>Phù hợp mọi loại thức uống</p>
+              </div>
+              <button class="buy-btn"><a href="./detail/detail_tctrang.html">ORDER</a></button>
+            </div>
+          </section>
+        </div>
+        <div class="col-10 pro" id="22">
+          <section class="product">
+            <div class="product_photo">
+              <div class="photo-container">
+                <div class="photo-main">
+                  <img src="./image/3loai.png">
+                </div>
+              </div>
+            </div>
+            <div class="product_info">
+              <div class="title">
+                <h1><b>Combo 3 loại</b></h1>
+              </div>
+              <div class="price">
+                <span>10.000<sup>đ</sup></span>
+              </div>
+              <div class="description">
+                <h3>Chi Tiết</h3>
+                <p>Phù hợp mọi loại thức uống</p>
+              </div>
+              <button class="buy-btn"><a href="./detail/detail_3loai.html">ORDER</a></button>
+            </div>
+          </section>
+        </div>
+        <div class="container">
+          <img src="./image/tctvidau.png" alt="Avatar" class="image">
+          <div class="overlay" onclick="myFunction23()">
+            <div class="text">
+              <img src="./image/add.png" class="rounded-circle" alt="">
+            </div>
+          </div>
+          <h3 style="text-align: center;">Trân Châu Trắng vị Dâu</h3>
+        </div>
+
+        <div class="col-10 pro" id="23">
+          <section class="product">
+            <div class="product_photo">
+              <div class="photo-container">
+                <div class="photo-main">
+                  <img src="./image/tctvidau.png">
+                </div>
+              </div>
+            </div>
+            <div class="product_info">
+              <div class="title">
+                <h1><b>Trân Châu Trắng Vị Dâu</b></h1>
+              </div>
+              <div class="price">
+                <span>10.000<sup>đ</sup></span>
+              </div>
+              <div class="description">
+                <h3>Chi Tiết</h3>
+                <p>Phù hợp mọi loại thức uống</p>
+              </div>
+              <button class="buy-btn"><a href="./detail/detail_tcvidau.html">ORDER</a></button>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="footer">
+
+    <div class="box-container">
+
+      <div class="box">
+        <h3>follow us</h3>
+        <a href="https://www.facebook.com/NDD176/"><i class="fab fa-facebook"></i> facebook</a>
+        <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter-square"></i> twitter</a>
+        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i> instagram</a>
+        <a href="https://www.linkedin.com/login"><i class="fab fa-linkedin-in"></i> linkedin</a>
+      </div>
+
+      <div class="box">
+        <h3>quick links</h3>
+        <a href="#">home</a>
+        <a href="#">about</a>
+        <a href="./menu.html">menu</a>
+        <a href="#">reivew</a>
+        <a href="#">order</a>
+      </div>
+
+      <div class="box">
+        <h3>contact info</h3>
+        <a href="#"><i class="fas fa-phone"></i> 1900 1560</a>
+        <a href="#"><i class="fas fa-envelope"></i> Lostkid@gmail.com</a>
+        <a
+          href="https://www.google.com/maps/place/29,+18+Tr%E1%BA%A7n+Thi%E1%BB%87n+Ch%C3%A1nh,+Ph%C6%B0%E1%BB%9Dng+12,+Qu%E1%BA%ADn+10,+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh,+Vi%E1%BB%87t+Nam/@10.7713446,106.6694742,17z/data=!3m1!4b1!4m5!3m4!1s0x31752ede612813ff:0x6b86fbd7ebb09aae!8m2!3d10.7713393!4d106.6716629?hl=vi-VN"><i
+            class="fas fa-map-marker-alt"></i>28/19 Tran Thien Chanh,phuong 15,quan 10,HCM, VietNam </a>
+      </div>
+
+
+
+    </div>
+
+    <div class="credit"> copyright @ 2021 by <span>LOSTKIDS</span> </div>
+  </section>
+
+  <!-- footer section ends -->
+
+  <!-- loader part  -->
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="./js/menu.js"></script>
+  <script src="./js/logged.js"></script>
+
+</body>
+
+</html>

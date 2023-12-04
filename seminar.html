@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lostkids Website Seminar</title>
+    <link rel="stylesheet" href="./css/slideshow.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/png" href="./image/logo.png" sizes="64x64">
+
+</head>
+
+<body>
+
+    <!-- header section starts      -->
+
+    <header>
+        <a href="./seminar.html" class="logo"><img src="./image/logo.png" alt="" class="corgi">
+            <p class="lk">Lostkids</p>
+        </a>
+        <nav class="navbar">
+            <a class="active" href="#home">home</a>
+            <a href="#dishes">drinks</a>
+            <a href="#about">about</a>
+
+            <div class="dropdown">
+                <button class="dropbtn"> <a href="./menu.html">menu</a></button>
+                <div class="dropdown-content">
+                    <a href="./menu.html">Milktea</a>
+                    <a href="./menu.html">Tea</a>
+                    <a href="./menu.html">Special</a>
+                    <a href="./menu.html">Topping</a>
+
+                </div>
+            </div>
+
+
+            <a href="#review">review</a>
+            <a href="#order">order</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            
+            <!-- <a href="#" class="fas fa-heart"></a> -->
+
+            <a href="#" class="fas fa-shopping-cart" onclick="thongbaologin()"></a>
+            <a href="./loggin2.html" class="fas fa-user"></a>
+        </div>
+
+    </header>
+
+    <!-- header section ends-->
+
+    <!-- search form  -->
+    <div class="background_header">
+        <h1>day la background</h1>
+    </div>
+
+
+    <!-- home section starts  -->
+
+    </div>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="./image/banner1.png" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="./image/banner2.png" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="./image/banner3.png" style="width:100%">
+        </div>
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(0)"></span>
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+</body>
+<!-- home section ends -->
+
+<!-- dishes section starts  -->
+
+<section class="dishes" id="dishes">
+
+    <h3 class="sub-heading"> our drink </h3>
+    <h1 class="heading"> popular drinks </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <!-- <a href="#" class="fas fa-heart"></a> -->
+
+            <a href="./detail/matcheese.html" class="fas fa-eye"></a>
+            <img src="./image/8.png" alt="">
+            <h3>Matcheese</h3>
+            <!-- <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div> -->
+            <p>45.000 đ </p>
+            <a href="./loggin2.html" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <!-- <a href="#" class="fas fa-heart"></a> -->
+
+            <a href="./detail/detail.trasuatruyenthong.html" class="fas fa-eye"></a>
+            <img src="./image/3.png" alt="">
+            <h3>Trà sữa truyền thống</h3>
+            <!-- <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div> -->
+            <p>25.000 đ</p>
+            <a href="./loggin2.html" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <!-- <a href="#" class="fas fa-heart"></a> -->
+
+            <a href="./detail/detail_duahauxoai.html" class="fas fa-eye"></a>
+            <img src="./image/2.png" alt="">
+            <h3>Trà Dưa Hấu mix Xoài</h3>
+            <!-- sao -->
+            <!-- <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div> -->
+            <p>40.000 đ</p>
+            <a href="./loggin2.html" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <!-- <a href="#" class="fas fa-heart"></a> -->
+            <a href="./detail/trasuasocola.html" class="fas fa-eye"></a>
+            <img src="./image/socolats.png" alt="">
+            <h3>Trà sữa Socola</h3>
+            <p>35.000 đ</p>
+            <a href="./loggin2.html" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <!-- <a href="#" class="fas fa-heart"></a> -->
+            <a href="./detail/botsuatranchau.html" class="fas fa-eye"></a>
+            <img src="./image/10.png" alt="">
+            <h3>Bọt sữa trân châu đường đen</h3>
+            <p>30.000 đ</p>
+            <a href="./loggin2.html" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <!-- <a href="#" class="fas fa-heart"></a> -->
+            <a href="./detail/detail_tradao.html" class="fas fa-eye"></a>
+            <img src="./image/15.png" alt="">
+            <h3>Trà Đào</h3>
+            <p>30.000 đ</p>
+            <a href="./loggin2.html" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <!-- <a href="#" class="fas fa-heart"></a> -->
+
+            <a href="./detail/hatdepduongden.html" class="fas fa-eye"></a>
+            <img src="./image/4.png" alt="">
+            <h3>Trà sữa hạt đẹp đường đen</h3>
+            <p>35.000 đ</p>
+            <a href="./loggin2.html" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <!-- <a href="#" class="fas fa-heart"></a> -->
+
+            <a href="./detail/chocolatedaxay.html" class="fas fa-eye"></a>
+            <img src="./image/5.png" alt="">
+            <h3>Chocolate đá xay</h3>
+            <p>45.000 đ</p>
+            <a href="./loggin2.html" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <!-- <a href="#" class="fas fa-heart"></a> -->
+            <a href="./detail/detail_traduanhai.html" class="fas fa-eye"></a>
+            <img src="./image/7.png" alt="">
+            <h3>Tra Dua Nhai</h3>
+            <p>35.000 đ</p>
+            <a href="./loggin2.html" class="btn">add to cart</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- dishes section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <h3 class="sub-heading"> about us </h3>
+    <h1 class="heading"> why choose us? </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="./image/ts.png" alt="">
+            <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29mZmVlJTIwc2hvcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                alt="">
+            <!-- <img src="https://websitecuckukvn.misacdn.net/wp-content/uploads/2019/10/trai-nghiem-dich-vu.jpg" alt=""> -->
+            <img src="https://vuicoffee.com/wp-content/uploads/2019/09/quan-ca-phe-dong-khach-3.png" alt="">
+            <img src="https://thuochay.top/wp-content/uploads/2020/11/thu-hoa%CC%A3ch-tra%CC%80-xanh.png" alt="">
+        </div>
+
+        <div class="content">
+            <h3>The name:</h3>
+            <p>Thương hiệu được tạo nên từ "những đứa trẻ lạc lối",
+                nhằm tạo ra làn gió mới vào thị trường trà sữa,
+                chinh phục trái tim mọi lứa tuổi với những người
+                có niềm đam mê mãnh liệt với trà sữa và sắp đam mê.
+                "Những đứa trẻ lạc lối" sử dụng logo chú chó Cogri
+                nhằm tạo sự thân thiện, dễ thương, chúng tôi xem
+                như linh vật thu hút khách hàng. Chúng tôi sẽ mang đến
+                hương vị độc lạ, ngọt ngào và tinh tế nhất đến mọi thực
+                khách, mọi lứa tuổi.
+            </p>
+            <h3>Khát vọng:</h3>
+            <p>Khát vọng của "những đứa trẻ lạc lối" vô cùng lớn, mang
+                thương hiệu, hương vị không chỉ trải khắp các tỉnh thành
+                Việt Nam mà còn vươn tầm thế giới. Hiện tại "những đứa
+                trẻ lạc lối" đã đi được 70% chặng đường, khi là một trong
+                những thương hiệu hàng đầu Việt Nam, chúng tôi đang từng
+                bước xây dựng mang tên tuổi ra thế giới. Được thành lập
+                năm đầu năm 2021 nhưng "những đứa trẻ lạc lối" đã có mặt
+                gần như tất cả các tỉnh thành VN. </p>
+            <h3>Tại sao chúng tôi thành công như vậy?</h3>
+            <p>Sự phát triển của chúng tôi dựa vào sự uy tín, chất lượng.
+                Cung cấp cho khách hàng những sản phẩm trà chất lượng nhất,
+                cái cốt lỗi của chúng tôi nằm ở chất lượng. <br><b>Chăm ngôn:</b>
+                <em>Chất lượng tạo nên thương hiệu.</em> <br>
+                Công thức mới lạ, hương vị ngọt ngào không chỉ trên đầu lưỡi.
+                Trong quá trình luôn có sự đổi mới, dịch vụ đã đưa "những đứa trẻ lạc lối"
+                thành công như hiện tại. Đến gần hơn và luôn mang lại những hương vị diệu kì
+                cho người thưởng thức là điều mà "những đứa trẻ lạc lối" luôn nỗ lực hoàn thiện mỗi ngày.
+            </p>
+            <h3>Chúng tôi có gì trong cốc trà?
+            </h3>
+            <p>Chúng tôi chăm chút từng tí, từ vẻ ngoài đến hương vị. Khách hàng sẽ có được
+                sự thích thú từ hương vị đến cả vẻ ngoài của "những đứa trẻ lạc lối".
+                Menu đa dạng, nhiều loại để bạn lựa chọn. Món nào cũng mang hương vị riêng biệt,
+                có thể tùy chỉnh lượng đường, lượng đá phù hợp với khẩu vị của bạn.
+                "Những đứa trẻ lạc lối" cam kết sử dụng những lá trà hảo hạn xuất xứ từ Taiwan,
+                Japan và Việt Nam. Đa dạng topping và đều được chúng tôi tự tay làm, với các lựa
+                chọn không chứa lactose, không chứa caffein và không chứa gluten, vừa tốt cho sức
+                khỏe vừa ngon miệng.
+            </p>
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-shipping-fast"></i>
+                    <span>free delivery</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-dollar-sign"></i>
+                    <span>easy payments</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-headset"></i>
+                    <span>24/7 service</span>
+                </div>
+            </div>
+            <a href="#" class="btn">learn more</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- about section ends -->
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h3 class="sub-heading"> customer's review </h3>
+    <h1 class="heading"> what they say </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="./image/top.png" alt="">
+                    <div class="user-info">
+                        <h3>Anh Anh</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Trà ngon, đậm vị, phục vụ tận tình
+                </p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="./image/top.png" alt="">
+                    <div class="user-info">
+                        <h3>Duy Đình</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Giao hàng nhanh, shiper thân thiện, trà sữa ..... khác với những nơi khác, logo dễ thương sẽ ủng
+                    hộ tiếp
+                </p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="./image/top.png" alt="">
+                    <div class="user-info">
+                        <h3>Cẩm Hồng</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Trà ... đậm uống dô có thể mất ngủ, vị ngon khỏi bàn, thích hợp làm bạn đồng hành cũng những ngày
+                    chạy deadline</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="./image/top.png" alt="">
+                    <div class="user-info">
+                        <h3>An Khang</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Đã ủng hộ nhiều lần, lần nào cũng ngon, quá là u mê, chữ eeeeeeeeee </p>
+            </div>
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="./image/top.png" alt="">
+                    <div class="user-info">
+                        <h3>Ms.TraDa</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Ngon lam, qua la tuyet voi </p>
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- order section starts  -->
+
+<section class="order" id="order">
+
+    <h3 class="sub-heading"> order now </h3>
+    <h1 class="heading"> free and fast </h1>
+    <a href="./loggin2.html">
+        <h1 class="heading1"> Login to order</h1>
+    </a>
+
+
+</section>
+
+<!-- order section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="https://www.facebook.com/NDD176/"><i class="fab fa-facebook"></i> facebook</a>
+            <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter-square"></i> twitter</a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i> instagram</a>
+            <a href="https://www.linkedin.com/login"><i class="fab fa-linkedin-in"></i> linkedin</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="./menu.html">menu</a>
+            <a href="#">reivew</a>
+            <a href="#">order</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"><i class="fas fa-phone"></i> 1900 1560</a>
+            <a href="#"><i class="fas fa-envelope"></i> Lostkid@gmail.com</a>
+            <a
+                href="https://www.google.com/maps/place/29,+18+Tr%E1%BA%A7n+Thi%E1%BB%87n+Ch%C3%A1nh,+Ph%C6%B0%E1%BB%9Dng+12,+Qu%E1%BA%ADn+10,+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh,+Vi%E1%BB%87t+Nam/@10.7713446,106.6694742,17z/data=!3m1!4b1!4m5!3m4!1s0x31752ede612813ff:0x6b86fbd7ebb09aae!8m2!3d10.7713393!4d106.6716629?hl=vi-VN"><i
+                    class="fas fa-map-marker-alt"></i>28/19 Tran Thien Chanh,phuong 15,quan 10,HCM, VietNam </a>
+        </div>
+
+
+
+    </div>
+
+    <div class="credit"> copyright @ 2021 by <span>LOSTKIDS<span> </div>
+
+</section>
+
+<!-- footer section ends -->
+
+<!-- loader part  -->
+<div class="loader-container">
+    <img src="./image/chomotlat.gif" alt="">
+</div>
+<script src="./js/slideshow.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+
+</html>

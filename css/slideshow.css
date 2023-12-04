@@ -1,0 +1,65 @@
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1037.31px;
+  position: relative;
+  margin: auto;
+}
+/* Ẩn các slider */
+.mySlides {
+  display: none;
+}
+/* Định dạng nội dung Caption */
+/* .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  } */
+
+/* định dạng các chấm chuyển đổi các slide */
+.dot {
+  cursor: pointer;
+  height: 13px;
+  width: 13px;
+  background-color: rgb(100, 255, 254);
+  margin-inline: 5px;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  padding-bottom: 2 rem;
+  margin-bottom: 30px;
+}
+/* khi được hover, active đổi màu nền */
+.active,
+.dot:hover {
+  background-color: rgb(84, 209, 254);
+}
+
+/* Thêm hiệu ứng khi chuyển đổi các slide */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}

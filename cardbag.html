@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lostkids Order-Delivery</title>
+    <link rel="stylesheet" href="css/slideshow.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cardbag.css">
+    <link rel="icon" type="image/png" href="./image/logo.png" sizes="64x64">
+
+</head>
+
+<body>
+    <header>
+        <a href="./seminar.html" class="logo"><img src="./image/logo.png" alt="" class="corgi">
+            <p class="lk">Lostkids</p>
+        </a>
+        <nav class="navbar">
+            <a class="active" href="#home">home</a>
+            <a href="#dishes">drinks</a>
+            <a href="#about">about</a>
+
+            <div class="dropdown">
+                <button class="dropbtn"> <a href="./menu2.html">menu</a></button>
+                <div class="dropdown-content">
+                    <a href="./menu.html">Milktea</a>
+                    <a href="./menu.html">Tea</a>
+                    <a href="./menu.html">Special</a>
+                    <a href="./menu.html">Topping</a>
+
+                </div>
+            </div>
+
+
+            <a href="#review">review</a>
+            <a href="#order">order</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <!-- <i class="fas fa-search" id="search-icon"></i> -->
+            <!-- <a href="./Login.html" class="fas fa-user"></a> -->
+
+            <!-- <a href="#" class="fas fa-heart"></a> -->
+
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-sign-out-alt" onclick="signout()"></a>
+            <div class="out">
+                Xin chào <b></b>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- header section ends-->
+
+    <!-- search form  -->
+
+    <div class="emty"></div>
+    <div class='container'>
+        <div class="header">
+            <h3 class="name">Prouct</h3>
+            <h3 class="price">Price</h3>
+            <h3 class="quantity">Quantity</h3>
+            <h3 class="total">Total</h3>
+        </div>
+        <div class="product">
+            <div class="sp">
+                <img src="./image/1.png" alt="" class="itemimg">
+                <div class="itemname">Prouct</div>
+                <div class="itemprice">Price</div>
+                <div class="itemquantity">Quantity</div>
+                <div class="itemtotal">Total</div>
+            </div>
+        </div>
+    </div>
+    <section class="order" id="order">
+
+        <h3 class="sub-heading"> order now </h3>
+        <h1 class="heading"> free and fast </h1>
+
+        <form action="">
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>your name</span>
+                    <input type="text" placeholder="enter your name" id="nameorder">
+                </div>
+                <div class="input">
+                    <span>your number</span>
+                    <input type="tel" placeholder="enter your number" id="phoneorder">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>your address</span>
+                    <textarea name="" placeholder="enter your address" id="addorder" cols="30" rows="10"></textarea>
+                </div>
+                <div class="input">
+                    <span>your message</span>
+                    <textarea name="" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+
+            <input style="margin-left:350px;" type="submit" value="order now" class="btn" onclick="purchase()">
+
+        </form>
+
+    </section>
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="https://www.facebook.com/NDD176/"><i class="fab fa-facebook"></i> facebook</a>
+                <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter-square"></i> twitter</a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i> instagram</a>
+                <a href="https://www.linkedin.com/login"><i class="fab fa-linkedin-in"></i> linkedin</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">about</a>
+                <a href="./menu.html">menu</a>
+                <a href="#">reivew</a>
+                <a href="#">order</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"><i class="fas fa-phone"></i> 1900 1560</a>
+                <a href="#"><i class="fas fa-envelope"></i> Lostkid@gmail.com</a>
+                <a
+                    href="https://www.google.com/maps/place/29,+18+Tr%E1%BA%A7n+Thi%E1%BB%87n+Ch%C3%A1nh,+Ph%C6%B0%E1%BB%9Dng+12,+Qu%E1%BA%ADn+10,+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh,+Vi%E1%BB%87t+Nam/@10.7713446,106.6694742,17z/data=!3m1!4b1!4m5!3m4!1s0x31752ede612813ff:0x6b86fbd7ebb09aae!8m2!3d10.7713393!4d106.6716629?hl=vi-VN"><i
+                        class="fas fa-map-marker-alt"></i>28/19 Tran Thien Chanh,phuong 15,quan 10,HCM, VietNam </a>
+            </div>
+
+
+
+        </div>
+
+        <div class="credit"> copyright @ 2021 by <span>LOSTKIDS<span> </div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+    <!-- loader part  -->
+    <!-- <div class="loader-container">
+                <img src="./image/chomotlat.gif" alt="">
+            </div>
+            <script src="./js/slideshow.js"></script>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+            
+            <!-- custom js file link  -->
+    <script src="js/script.js"></script> -->
+
+    <!-- Code injected by live-server -->
+    <script type="text/javascript">
+
+    </script>
+    <script src="./js/cart.js"></script>
+    <script src="./js/logged.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="./css/Login.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/png" href="./image/logo.png" sizes="64x64">
+
+</head>
+
+<body>
+    <header>
+        <a href="./seminar.html" class="logo"><img src="./image/logo.png" alt="" class="corgi">
+            <p class="lk">Lostkids</p>
+        </a>
+        <nav class="navbar">
+            <a class="active" href="seminar.html">Home</a>
+            <a href="#dishes">drinks</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#review">review</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-shopping-cart" onclick="thongbaologin()"></a>
+             </div>
+    </header>
+    <div class="bgmid">
+        <img src="./image/top.png" alt="">
+    </div>
+    <section class="singup">
+        <div class="singupcontainer">
+          <h1>ĐĂNG NHẬP</h1> 
+         <table>
+          <tr>
+               <th> 
+                   <span>TÊN ĐĂNG NHẬP</span>
+                </th>
+               <td>
+                <input type="email" placeholder="Enter your user name" id="usersi">
+               </td>
+             
+        </tr>
+        <tr>
+        <th>
+            <span>PASSWORD</span>
+        </th>
+       <td>
+           <input type="password" placeholder="Enter your password" id="pwsi">
+       </td>
+    </table>
+    <br>
+    <input type="button" value="ĐĂNG NHẬP" class="btnsi" onclick="clicktest()">
+    <br>
+    <span class="cctk">Chưa có tài khoản?<a href="./Login.html">Đăng kí</a></span>
+
+        </div>
+    </section>
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="https://www.facebook.com/NDD176/"><i class="fab fa-facebook"></i> facebook</a>
+                <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter-square"></i> twitter</a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i> instagram</a>
+                <a href="https://www.linkedin.com/login"><i class="fab fa-linkedin-in"></i> linkedin</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">about</a>
+                <a href="./menu.html">menu</a>
+                <a href="#">reivew</a>
+                <a href="#">order</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"><i class="fas fa-phone"></i> 1900 1560</a>
+                <a href="#"><i class="fas fa-envelope"></i> Lostkid@gmail.com</a>
+                <a
+                    href="https://www.google.com/maps/place/29,+18+Tr%E1%BA%A7n+Thi%E1%BB%87n+Ch%C3%A1nh,+Ph%C6%B0%E1%BB%9Dng+12,+Qu%E1%BA%ADn+10,+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh,+Vi%E1%BB%87t+Nam/@10.7713446,106.6694742,17z/data=!3m1!4b1!4m5!3m4!1s0x31752ede612813ff:0x6b86fbd7ebb09aae!8m2!3d10.7713393!4d106.6716629?hl=vi-VN"><i
+                        class="fas fa-map-marker-alt"></i>28/19 Tran Thien Chanh,phuong 15,quan 10,HCM, VietNam </a>
+            </div>
+
+
+
+        </div>
+
+        <div class="credit"> copyright @ 2021 by <span>LOSTKIDS</span> </div>
+
+    </section>
+</body>
+<script src="./js/login.js"></script>
+<script src="./js/logged.js"></script>
+
+</html>

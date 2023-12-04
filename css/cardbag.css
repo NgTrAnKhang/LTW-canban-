@@ -1,0 +1,88 @@
+.emty{
+  height: 190px;
+}
+.container{
+  max-width: 700px;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 50px;
+  position: relative;
+  font-size: 15px;
+}
+.header{
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 4px solid black;
+}
+.name{
+  width: 45%;
+}
+.price{
+  width: 15%;
+  display: flex;
+  align-items: center;
+}
+.quantity{
+  width: 25%;
+  display: flex;
+  align-items: center;
+}
+.total{
+  width: 15%;
+  display: flex;
+  align-items: center;
+}
+.sp{
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 4px solid grey;
+}
+.itemimg{
+  width: 50px;
+  height: 50px;
+}
+.itemname{
+  width: 45%;
+}
+.itemprice{
+  width: 15%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: -32px;
+}
+.itemquantity{
+  width: 25%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: -18px;
+}
+.itemtotal{
+  width: 15%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: -5px;
+  color: red;
+}
+.del{
+  color: red;
+  position: relative;
+  left: 2px;
+}
+.totalprice{
+  float: right;
+  color: red;
+  font-size: 15px;
+}
+.clearitem{
+  position: relative;
+  right: 490px;
+  cursor: pointer;
+}
+

@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tra Cam Mat Ong</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!------ Include the above in your HEAD tag ---------->
+  <link rel="stylesheet" href="./detail.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="icon" type="image/png" href="../image/logo.png" sizes="64x64">
+</head>
+
+
+<body>
+  <header>
+    <a href="../seminar.html" class="logo"><img src="../image/logo.png" alt="" class="corgi">
+      <p class="lk">Lostkids</p>
+    </a>
+    <nav class="navbar">
+      <a class="active" href="#home">home</a>
+      <a href="about.html">about</a>
+      <div class="dropdown">
+        <button class="dropbtn"> <a href="../menu.html">menu</a></button>
+        <div class="dropdown-content">
+          <a href="../menu.html">Milktea</a>
+          <a href="../menu.html">Tea</a>
+          <a href="../menu.html">Special</a>
+          <a href="../menu.html">Topping</a>
+
+        </div>
+      </div>
+      <a href="review.html">review</a>
+      <a href="order.html">order</a>
+    </nav>
+    <div class="icons">
+      <i class="fas fa-bars" id="menu-bars"></i>
+      <i class="fas fa-search" id="search-icon"></i>
+      <a href="#" class="fas fa-shopping-cart" onclick="thongbaologin()"></a>
+      <a href="../loggin2.html" class="fas fa-user"></a>
+    </div>
+
+
+  </header>
+  <div class="background_bar">
+    <h1>daylabkacground</h1>
+  </div>
+  <!-- header section ends-->
+
+  <!-- search form  -->
+
+
+
+  <div class="pd-wrap">
+    <div class="container">
+      <div class="heading-section">
+        <h2>Product Details</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div id="slider" class="owl-carousel product-slider">
+            <div class="item">
+              <img src="../image/1.png" id="productimg" />
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-6">
+          <div class="product-dtl">
+            <div class="product-info">
+              <div class="product-name" id="product-name">Trà Cam Mật Ong</div>
+              <div class="reviews-counter">
+                <div class="rate">
+                  <input type="radio" id="star5" name="rate" value="5" checked />
+                  <label for="star5" title="text">5 stars</label>
+                  <input type="radio" id="star4" name="rate" value="4" checked />
+                  <label for="star4" title="text">4 stars</label>
+                  <input type="radio" id="star3" name="rate" value="3" checked />
+                  <label for="star3" title="text">3 stars</label>
+                  <input type="radio" id="star2" name="rate" value="2" />
+                  <label for="star2" title="text">2 stars</label>
+                  <input type="radio" id="star1" name="rate" value="1" />
+                  <label for="star1" title="text">1 star</label>
+                </div>
+                <span>3 Reviews</span>
+              </div>
+              <div class="product-price-discount" id="product-price-discount" style="color: red;">
+                <span>35</span>.000<sup>đ</sup></div>
+            </div>
+            <p>Mật Ong Ngọt Nhẹ, Trà Đen Hảo Hạn, Những Lát Cam Thanh Mát</p>
+          </div>
+          <div class="product-count">
+            <label for="size">Quantity</label>
+            <form action="#" class="display-flex">
+              <div class="qtyminus">-</div>
+              <input type="text" name="quantity" value="1" class="qty" id="product-quantity">
+              <div class="qtyplus">+</div>
+            </form>
+            <a href="#" class="round-black-btn" onclick="getproduct()">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="product-info-tabs">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="description-tab" data-toggle="tab" href="#description" role="tab"
+            aria-controls="description" aria-selected="true">Description</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="review-tab" data-toggle="tab" href="#review" role="tab" aria-controls="review"
+            aria-selected="false">Reviews (0)</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
+          Mật Ong Ngọt Nhẹ, Trà Đen Hảo Hạn, Những Lát Cam Thanh Mát
+        </div>
+        <div class="tab-pane fade" id="review" role="tabpanel" aria-labelledby="review-tab">
+          <div class="review-heading">REVIEWS</div>
+          <p class="mb-20">There are no reviews yet.</p>
+          <form class="review-form">
+            <div class="form-group">
+              <label>Your rating</label>
+              <div class="reviews-counter">
+                <div class="rate">
+                  <input type="radio" id="star5" name="rate" value="5" />
+                  <label for="star5" title="text">5 stars</label>
+                  <input type="radio" id="star4" name="rate" value="4" />
+                  <label for="star4" title="text">4 stars</label>
+                  <input type="radio" id="star3" name="rate" value="3" />
+                  <label for="star3" title="text">3 stars</label>
+                  <input type="radio" id="star2" name="rate" value="2" />
+                  <label for="star2" title="text">2 stars</label>
+                  <input type="radio" id="star1" name="rate" value="1" />
+                  <label for="star1" title="text">1 star</label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Your message</label>
+              <textarea class="form-control" rows="10"></textarea>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="text" name="" class="form-control" placeholder="Name*">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="text" name="" class="form-control" placeholder="Email Id*">
+                </div>
+              </div>
+            </div>
+            <button class="round-black-btn">Submit Review</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="related">
+    <h2>Related product</h2>
+    <section class="pt-5 pb-5">
+      <div class="related-container">
+        <div class="row">
+          <div class="col-6">
+            <h3 class="mb-3">Ngại gì không thử?</h3>
+          </div>
+          <div class="col-6 text-right">
+            <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+              <i class="fa fa-arrow-left"></i>
+            </a>
+            <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+              <i class="fa fa-arrow-right"></i>
+            </a>
+          </div>
+          <div class="col-12">
+            <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+
+
+                    <div class="col-md-4 mb-3 related-pro">
+                      <a href="../detail/detail_traduanhai.html">
+                        <div class="card">
+                          <img class="img-fluid" alt="100%x280" src="../image/7.png">
+                          <div class="card-body">
+                            <h4 class="card-title">Trà Dứa Nhài</h4>
+                          </div>
+
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-md-4 mb-3 related-pro">
+                      <a href="../detail/chocolatedaxay.html">
+                        <div class="card">
+                          <img class="img-fluid" alt="100%x280" src="../image/5.png">
+                          <div class="card-body">
+                            <h4 class="card-title">Chocolate Đá Xay</h4>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-md-4 mb-3 related-pro">
+                      <a href="../detail/detaill_traxanhmatong.html">
+                        <div class="card">
+                          <img class="img-fluid" alt="100%x280" src="../image/16.png">
+                          <div class="card-body">
+                            <h4 class="card-title">Trà Xanh Mật Ong</h4>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+
+                    <div class="col-md-4 mb-3 related-pro">
+                      <a href="../detail/detail_duahauxoai.html">
+                        <div class="card">
+                          <img class="img-fluid" alt="100%x280" src="../image/2.png">
+                          <div class="card-body">
+                            <h4 class="card-title">Trà Dưa Hấu mix Xoài</h4>
+                          </div>
+
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-md-4 mb-3 related-pro">
+                      <a href="../detail/detail_tralevang.html">
+                        <div class="card">
+                          <img class="img-fluid" alt="100%x280" src="../image/17.png">
+                          <div class="card-body">
+                            <h4 class="card-title">Trà Lê Vàng</h4>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-md-4 mb-3 related-pro">
+                      <a href="../detail/detail_cammatong.html">
+                        <div class="card">
+                          <img class="img-fluid" alt="100%x280" src="../image/1.png">
+                          <div class="card-body">
+                            <h4 class="card-title">Trà Cam Mật Ong</h4>
+                          </div>
+                        </div>
+                    </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+
+                    <div class="col-md-4 mb-3 related-pro">
+                      <a href="../detail/detail_chanhcaphe.html">
+                        <div class="card">
+                          <img class="img-fluid" alt="100%x280" src="../image/9.png">
+                          <div class="card-body">
+                            <h4 class="card-title">Trà Đen Chanh Cà Phê</h4>
+                          </div>
+
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-md-4 mb-3 related-pro">
+                      <a href="../detail/hatdepduongden.html">
+                        <div class="card">
+                          <img class="img-fluid" alt="100%x280" src="../image/4.png">
+                          <div class="card-body">
+                            <h4 class="card-title">Trà sữa Hạt Đẹp Dường Đen</h4>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-md-4 mb-3 related-pro">
+                      <a href="../detail/detail_tradao.html">
+                        <div class="card">
+                          <img class="img-fluid" alt="100%x280" src="../image/15.png">
+                          <div class="card-body">
+                            <h4 class="card-title">Trà Đào</h4>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+
+
+    <!-- order section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+      <div class="box-container">
+
+        <div class="box">
+          <h3>follow us</h3>
+          <a href="https://www.facebook.com/NDD176/"><i class="fab fa-facebook"></i> facebook</a>
+          <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter-square"></i> twitter</a>
+          <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i> instagram</a>
+          <a href="https://www.linkedin.com/login"><i class="fab fa-linkedin-in"></i> linkedin</a>
+        </div>
+
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#">home</a>
+          <a href="#">about</a>
+          <a href="./menu.html">menu</a>
+          <a href="#">reivew</a>
+          <a href="#">order</a>
+        </div>
+
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="#"><i class="fas fa-phone"></i> 1900 1560</a>
+          <a href="#"><i class="fas fa-envelope"></i> Lostkid@gmail.com</a>
+          <a
+            href="https://www.google.com/maps/place/29,+18+Tr%E1%BA%A7n+Thi%E1%BB%87n+Ch%C3%A1nh,+Ph%C6%B0%E1%BB%9Dng+12,+Qu%E1%BA%ADn+10,+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh,+Vi%E1%BB%87t+Nam/@10.7713446,106.6694742,17z/data=!3m1!4b1!4m5!3m4!1s0x31752ede612813ff:0x6b86fbd7ebb09aae!8m2!3d10.7713393!4d106.6716629?hl=vi-VN"><i
+              class="fas fa-map-marker-alt"></i>28/19 Tran Thien Chanh,phuong 15,quan 10,HCM, VietNam </a>
+        </div>
+
+
+
+      </div>
+
+      <div class="credit"> copyright @ 2021 by <span>LOSTKIDS</span> </div>
+
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity=" sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+    <script>
+      $(document).ready(function () {
+        var slider = $("#slider");
+        var thumb = $("#thumb");
+        var slidesPerPage = 4; //globaly define number of elements per page
+        var syncedSecondary = true;
+        slider.owlCarousel({
+          items: 1,
+          slideSpeed: 2000,
+          nav: false,
+          autoplay: false,
+          dots: false,
+          loop: true,
+          responsiveRefreshRate: 200
+        }).on('changed.owl.carousel', syncPosition);
+        thumb
+          .on('initialized.owl.carousel', function () {
+            thumb.find(".owl-item").eq(0).addClass("current");
+          })
+          .owlCarousel({
+            items: slidesPerPage,
+            dots: false,
+            nav: true,
+            item: 4,
+            smartSpeed: 200,
+            slideSpeed: 500,
+            slideBy: slidesPerPage,
+            navText: ['<svg width="18px" height="18px" viewBox="0 0 11 20"><path style="fill:none;stroke-width: 1px;stroke: #000;" d="M9.554,1.001l-8.607,8.607l8.607,8.606"/></svg>', '<svg width="25px" height="25px" viewBox="0 0 11 20" version="1.1"><path style="fill:none;stroke-width: 1px;stroke: #000;" d="M1.054,18.214l8.606,-8.606l-8.606,-8.607"/></svg>'],
+            responsiveRefreshRate: 100
+          }).on('changed.owl.carousel', syncPosition2);
+        function syncPosition(el) {
+          var count = el.item.count - 1;
+          var current = Math.round(el.item.index - (el.item.count / 2) - .5);
+          if (current < 0) {
+            current = count;
+          }
+          if (current > count) {
+            current = 0;
+          }
+          thumb
+            .find(".owl-item")
+            .removeClass("current")
+            .eq(current)
+            .addClass("current");
+          var onscreen = thumb.find('.owl-item.active').length - 1;
+          var start = thumb.find('.owl-item.active').first().index();
+          var end = thumb.find('.owl-item.active').last().index();
+          if (current > end) {
+            thumb.data('owl.carousel').to(current, 100, true);
+          }
+          if (current < start) {
+            thumb.data('owl.carousel').to(current - onscreen, 100, true);
+          }
+        }
+        function syncPosition2(el) {
+          if (syncedSecondary) {
+            var number = el.item.index;
+            slider.data('owl.carousel').to(number, 100, true);
+          }
+        }
+        thumb.on("click", ".owl-item", function (e) {
+          e.preventDefault();
+          var number = $(this).index();
+          slider.data('owl.carousel').to(number, 300, true);
+        });
+
+
+        $(".qtyminus").on("click", function () {
+          var now = $(".qty").val();
+          if ($.isNumeric(now)) {
+            if (parseInt(now) - 1 > 0) { now--; }
+            $(".qty").val(now);
+          }
+        })
+        $(".qtyplus").on("click", function () {
+          var now = $(".qty").val();
+          if ($.isNumeric(now)) {
+            $(".qty").val(parseInt(now) + 1);
+          }
+        });
+      });
+    </script>
+    <script src="../js/adproduct.js"></script>
+</body>
+
+</html>

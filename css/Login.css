@@ -1,0 +1,52 @@
+.bgmid{
+    background-color: rgb(84, 209, 254);
+    height: 600px;
+    text-align: center;
+}
+.bgmid img{
+    position: relative;
+    top: 150px;
+}
+.signin{
+    border: 1px black unset;
+}
+input{
+    width: 300px;
+    border: 2px solid grey;
+    border-radius: 4px;
+    height: 30px;
+
+}
+.singupcontainer h1{
+    text-align: center;
+    font-size: 30px;
+}
+.singupcontainer span{
+    font-size: 20px;
+}
+.singupcontainer {
+    text-align: justify;
+}
+.singupcontainer table{
+    margin: 0 auto ;
+    border-spacing: 1em;
+}
+.singupcontainer th{
+    width: 40%;
+
+}
+.cctk{
+    position: relative;
+    font-size: 15px !important;
+    top: 5px;
+    left: 370px;
+}
+.cctk a{
+    color: blue;
+}
+::placeholder{
+    padding-left: 10px;
+}
+input:focus::placeholder {
+    opacity: 0.5;
+}
